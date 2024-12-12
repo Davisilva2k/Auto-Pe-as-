@@ -38,7 +38,7 @@ if (!isset($_SESSION['funcionario_id'])) {
     </div>
 
     <div class="button-container">
-        <h3>consultar</h3>
+        <h3>CONSULTAR</h3>
         <a href="./consultarCliente.php">consultarCliente</a><br>
         <a href="./consultarVeiculo.php">Consultar veiculo</a><br>
         <a href="./consultarFuncionario.php">Consultar funcionario</a><br>
@@ -48,7 +48,7 @@ if (!isset($_SESSION['funcionario_id'])) {
         <a href="./consultarServico.php">Consultar Serviços</a>
 
 
-        <h3>Cadastrar</h3>
+        <h3>CADASTRAR</h3>
         <a href="./cadastrarCliente.php">Cadastrar Cliente </a><br>
         <a href="./cadastrarEstoqueAcessorio.php">Cadastrar Acessorios</a><br>
         <a href="./cadastrarEstoquePecas.php">Cadastrar Peças</a><br>
@@ -56,7 +56,7 @@ if (!isset($_SESSION['funcionario_id'])) {
         <a href="./cadastrarVeiculo.php">Cadastrar Veiculos</a><br>
         <a href="./registrarFuncionario.php">Cadastrar funcionario</a><br>
         <a href="./cadastrarPromocao.php">Cadastrar Promocao</a><br>
-        <h3>Deslogar</h3>
+        <h3>DESLOGAR</h3>
         <a href="./logout.php">Logout</a>
     </div>
 </body>

@@ -46,7 +46,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <label for="codigo">Código de Verificação:</label>
         <input type="text" name="codigo" required placeholder="insira seu codigo de verificação"><br><br>
         <label for="nova_senha">Nova Senha:</label>
-        <input type="password" name="nova_senha" required><br><br>
+        <input type="password" name="nova_senha" minlength="8" required><br><br>
         <input type="submit" value="Redefinir Senha">
     </form>
     </div>

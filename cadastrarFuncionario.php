@@ -1,6 +1,7 @@
 <?php
 include_once("./config/config.php");
 include_once("./classes/Funcionario.php");
+include_once './classes/Funcionario.php';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $funcionario = new Funcionario($db);
@@ -8,7 +9,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $email = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
     $senha = password_hash($_POST['senha'], PASSWORD_DEFAULT);
     $funcionario->cadastrar($nome, $email, $senha);
-    header('location: telaLogin.php');
+    header('location: index.php');
     exit();
 }
 ?>
@@ -17,7 +18,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="./css/cadastroFunc.css">
+    <link rel="stylesheet" href="./registrarUsuario.css">
     <title>Cadastro Funcionario</title>
 </head>
 
@@ -25,17 +26,15 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <header>
         <div class="cabecalho">
 
-        <img src="./img/logo-tipo-semfundo.png" alt="Logo" class="logo">
+        <img src="./img/Logo Auto Peças (1).png" alt="Logo" class="logo">
+        <h1 id="h1_cabecalho">XIRUZÃO AUTO PEÇAS</h1>
 
-            <h1 id="h1_cabecalho">XIRUZÃO AUTO PEÇAS</h1>
-            <h3>Faça login para acessar o sistema e
-                ajudar a manter nosso estoque sempre em movimento.</h3>
         </div>
     </header>
 
-
     <div class="container">
         <div class="box">
+
             <form method="POST" action="">
                 <h1>CADASTRAR FUNCIONÁRIO</h1>
 
@@ -45,8 +44,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <label for="email">EMAIL:</label><br>
                 <input type="email" id="email" name="email" required>
                 <br><br>
-                <label for="senha">SENHA:</label>
-                <input type="password" id="senha" name="senha" required>
+                <label for="senha">SENHA:</label><br>
+                <input type="password" id="senha" name="senha" minlength="8" required>
                 <br><br>
                 <input type="submit" value="ADICIONAR">
                 <input type="button" value="VOLTAR" onclick="history.back()">
