@@ -30,7 +30,7 @@ $dados = $promo->ler();
 <head>
     <meta charset="UTF-8">
     <title>Portal</title>
-    <link rel="stylesheet" href="css/cssConsultarNoticia.css">
+    <link rel="stylesheet" href="css/consPromo.css">
 </head>
 
 <body>

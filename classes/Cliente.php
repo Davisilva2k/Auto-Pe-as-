@@ -27,6 +27,7 @@ class Cliente
 
     public function buscarCliente($id)
     {
+        
         try {
             // SQL para selecionar os dados do cliente
             $query = "SELECT * FROM clientes WHERE id = :id LIMIT 1";

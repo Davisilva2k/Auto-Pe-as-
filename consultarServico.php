@@ -20,6 +20,8 @@ $dados = $servico->ler();
 
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/consServico.css">
+
     <title>Portal</title>
 </head>
 

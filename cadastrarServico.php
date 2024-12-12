@@ -52,6 +52,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/cadastroServico.css">
+
     <title>Cadastro de Serviço</title>
 </head>
 
@@ -59,7 +61,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <header>
         <div class="cabecalho">
 
-        <img src="./img/logo-tipo-semfundo.png" alt="Logo" class="logo">    
+            <img src="./img/logo-tipo-semfundo.png" alt="Logo" class="logo">
 
             <h1 id="h1_cabecalho">XIRUZÃO AUTO PEÇAS</h1>
 

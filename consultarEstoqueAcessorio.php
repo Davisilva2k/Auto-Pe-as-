@@ -40,7 +40,7 @@ function saudacao() {
 <head>
     <meta charset="UTF-8">
     <title>Portal</title>
-    <link rel="stylesheet" href="css/cssConsultarEstoqueAcesorio.css">
+    <link rel="stylesheet" href="css/consEstAcess.css">
 </head>
 <body>
 <header>

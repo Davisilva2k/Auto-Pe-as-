@@ -17,7 +17,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="./registrarUsuario.css">
+    <link rel="stylesheet" href="./css/cadastroFunc.css">
     <title>Cadastro Funcionario</title>
 </head>
 

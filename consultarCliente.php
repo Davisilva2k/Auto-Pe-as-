@@ -50,7 +50,10 @@ function saudacao()
 
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/consCliente.css">
     <title>Portal</title>
+    <link rel="shortcut icon" href="./img/img_pessoa.png" type="image/png">
+
 </head>
 
 <body>
