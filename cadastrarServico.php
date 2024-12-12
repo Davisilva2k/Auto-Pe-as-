@@ -61,7 +61,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <header>
         <div class="cabecalho">
 
-            <img src="./img/logo-tipo-semfundo.png" alt="Logo" class="logo">
+        <img src="./img/Logo Auto Peças (1).png" alt="Logo" class="logo">
 
             <h1 id="h1_cabecalho">XIRUZÃO AUTO PEÇAS</h1>
 

@@ -37,7 +37,7 @@ $dados = $promo->ler();
 <header>
         <div class="cabecalho">
 
-        <img src="./img/logo-tipo-semfundo.png" alt="Logo" class="logo">
+        <img src="./img/Logo Auto Peças (1).png" alt="Logo" class="logo">
             <h1 id="h1_cabecalho">XIRUZÃO AUTO PEÇAS</h1>
             <h3>Faça login para acessar o sistema e
                 ajudar a manter nosso estoque sempre em movimento.</h3>

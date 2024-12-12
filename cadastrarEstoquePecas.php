@@ -24,6 +24,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <head>
     <meta charset="UTF-8">
     <title>Cadastro de peças</title>
+    <link rel="stylesheet" href="./css/cadastroEstoquePecas.css">
 </head>
 
 <body>

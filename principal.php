@@ -46,15 +46,14 @@ if (!isset($_SESSION['funcionario_id'])) {
         <a href="./consultarPromocao.php">Consultar Promocao</a><br>
         <a href="./consultarEstoquePecas.php">Consultar Peças</a><br>
         <a href="./consultarServico.php">Consultar Serviços</a>
-
-
+<br><br>
         <h3>CADASTRAR</h3>
         <a href="./cadastrarCliente.php">Cadastrar Cliente </a><br>
         <a href="./cadastrarEstoqueAcessorio.php">Cadastrar Acessorios</a><br>
         <a href="./cadastrarEstoquePecas.php">Cadastrar Peças</a><br>
         <a href="./cadastrarServico.php">Cadastrar Servicos</a><br>
         <a href="./cadastrarVeiculo.php">Cadastrar Veiculos</a><br>
-        <a href="./registrarFuncionario.php">Cadastrar funcionario</a><br>
+        <a href="./cadastrarFuncionario.php">Cadastrar funcionario</a><br>
         <a href="./cadastrarPromocao.php">Cadastrar Promocao</a><br>
         <h3>DESLOGAR</h3>
         <a href="./logout.php">Logout</a>
