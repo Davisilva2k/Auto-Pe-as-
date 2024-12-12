@@ -81,7 +81,7 @@ $dados = $clientes->ler();
                     <td><?php echo $row['marca']; ?></td>
                     <td><?php echo $row['ano']; ?></td>
                     <td>
-                        <a href="editarCliente.php?id=<?php echo $row['id']; ?>">Editar</a>
+                        <a href="editarVeiculo.php?id=<?php echo $row['id']; ?>">Editar</a>
                         <a href="consultarVeiculo.php?deletar=<?php echo $row['id']; ?>">Deletar</a>
                     </td>
                 </tr>

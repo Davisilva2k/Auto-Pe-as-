@@ -10,9 +10,9 @@ if (isset($_SESSION['cliente_id'])) {
 }
 $clientes = new Cliente($db);
 
-if (isset($_POST['deletarCliente'])) {
+if (isset($_POST['deletar'])) {
     try {
-        $id = $_GET['deletarCliente'];
+        $id = $_GET['deletar'];
         $clientes->deletarCliente($id);
         header('location:index.php');
         exit();
